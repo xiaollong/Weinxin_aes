@@ -1,0 +1,8 @@
+实现微信企业号和微信公众号的aes加解密示例
+
+
+rails项目
+微信aes类/app/controllers/weixin_aes.rb
+微信示例：app/controllers/weixin_controller.rb
+仅实现了接收消息，原样回复，供大家参考
+        企业号：weixin/index， 公众号：weixin/mp

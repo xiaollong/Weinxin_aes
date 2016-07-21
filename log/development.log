@@ -1,0 +1,1428 @@
+
+
+Started GET "/index/index?msg_signature=ad4b895e526f568752552714b59af9fd932b9c48&timestamp=1467708246&nonce=1804389002&echostr=J7qE53XhkTvh%2BGiwQUey9OHaGL%2B7NI2oYM3pilnBe%2ByCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA%3D%3D" for 172.16.240.78 at 2016-07-05 18:02:31 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (33.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.0ms)
+
+
+Started GET "/weixin/index?msg_signature=ad4b895e526f568752552714b59af9fd932b9c48&timestamp=1467708246&nonce=1804389002&echostr=J7qE53XhkTvh%2BGiwQUey9OHaGL%2B7NI2oYM3pilnBe%2ByCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA%3D%3D" for 172.16.240.78 at 2016-07-05 18:02:38 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+  Parameters: {"msg_signature"=>"ad4b895e526f568752552714b59af9fd932b9c48", "timestamp"=>"1467708246", "nonce"=>"1804389002", "echostr"=>"J7qE53XhkTvh+GiwQUey9OHaGL+7NI2oYM3pilnBe+yCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA=="}
+  Rendered weixin/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1774ms (Views: 1772.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/weixin.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 172.16.240.78 at 2016-07-05 18:02:40 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/weixin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 172.16.240.78 at 2016-07-05 18:02:40 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/weixin/index?msg_signature=ad4b895e526f568752552714b59af9fd932b9c48&timestamp=1467708246&nonce=1804389002&echostr=J7qE53XhkTvh%2BGiwQUey9OHaGL%2B7NI2oYM3pilnBe%2ByCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA%3D%3D" for 172.16.240.78 at 2016-07-05 18:03:22 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+  Parameters: {"msg_signature"=>"ad4b895e526f568752552714b59af9fd932b9c48", "timestamp"=>"1467708246", "nonce"=>"1804389002", "echostr"=>"J7qE53XhkTvh+GiwQUey9OHaGL+7NI2oYM3pilnBe+yCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA=="}
+  Rendered text template (0.1ms)
+Completed 200 OK in 49ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=ad4b895e526f568752552714b59af9fd932b9c48&timestamp=1467708246&nonce=1804389002&echostr=J7qE53XhkTvh%2BGiwQUey9OHaGL%2B7NI2oYM3pilnBe%2ByCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA%3D%3D" for 172.16.240.78 at 2016-07-05 18:03:53 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+  Parameters: {"msg_signature"=>"ad4b895e526f568752552714b59af9fd932b9c48", "timestamp"=>"1467708246", "nonce"=>"1804389002", "echostr"=>"J7qE53XhkTvh+GiwQUey9OHaGL+7NI2oYM3pilnBe+yCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA=="}
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=ad4b895e526f568752552714b59af9fd932b9c48&timestamp=1467708246&nonce=1804389002&echostr=J7qE53XhkTvh%2BGiwQUey9OHaGL%2B7NI2oYM3pilnBe%2ByCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA%3D%3D" for 172.16.240.78 at 2016-07-05 18:04:02 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+  Parameters: {"msg_signature"=>"ad4b895e526f568752552714b59af9fd932b9c48", "timestamp"=>"1467708246", "nonce"=>"1804389002", "echostr"=>"J7qE53XhkTvh+GiwQUey9OHaGL+7NI2oYM3pilnBe+yCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA=="}
+  Rendered text template (0.0ms)
+Completed 200 OK in 23ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=ad4b895e526f568752552714b59af9fd932b9c48&timestamp=1467708246&nonce=1804389002&echostr=J7qE53XhkTvh%2BGiwQUey9OHaGL%2B7NI2oYM3pilnBe%2ByCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA%3D%3D" for 172.16.240.78 at 2016-07-05 18:04:03 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+  Parameters: {"msg_signature"=>"ad4b895e526f568752552714b59af9fd932b9c48", "timestamp"=>"1467708246", "nonce"=>"1804389002", "echostr"=>"J7qE53XhkTvh+GiwQUey9OHaGL+7NI2oYM3pilnBe+yCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA=="}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=ad4b895e526f568752552714b59af9fd932b9c48&timestamp=1467708246&nonce=1804389002&echostr=J7qE53XhkTvh%2BGiwQUey9OHaGL%2B7NI2oYM3pilnBe%2ByCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA%3D%3D" for 172.16.240.78 at 2016-07-05 18:04:04 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+  Parameters: {"msg_signature"=>"ad4b895e526f568752552714b59af9fd932b9c48", "timestamp"=>"1467708246", "nonce"=>"1804389002", "echostr"=>"J7qE53XhkTvh+GiwQUey9OHaGL+7NI2oYM3pilnBe+yCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA=="}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=ad4b895e526f568752552714b59af9fd932b9c48&timestamp=1467708246&nonce=1804389002&echostr=J7qE53XhkTvh%2BGiwQUey9OHaGL%2B7NI2oYM3pilnBe%2ByCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA%3D%3D" for 172.16.240.78 at 2016-07-05 18:04:17 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+  Parameters: {"msg_signature"=>"ad4b895e526f568752552714b59af9fd932b9c48", "timestamp"=>"1467708246", "nonce"=>"1804389002", "echostr"=>"J7qE53XhkTvh+GiwQUey9OHaGL+7NI2oYM3pilnBe+yCKZa7UQqIa86prK6CmSWjgo4F8qIMbfZDhgXeiNYbpA=="}
+  Rendered weixin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 354ms (Views: 335.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index/index?msg_signature=2e727a8ec1e431930723692b48eedf787eec79fa&timestamp=1467708559&nonce=578607016&echostr=FpyYyfzL7%2FDbAKlXzKKEMUiXFYEQ0FIbfOFjmKapMiI5KUSfvCHJY7twDbS6k7OmR9mL2Clk9nHF8uosAxLLcg%3D%3D" for 172.16.240.78 at 2016-07-05 18:04:41 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.2ms)
+
+
+Started GET "/weixin/index?msg_signature=2e727a8ec1e431930723692b48eedf787eec79fa&timestamp=1467708559&nonce=578607016&echostr=FpyYyfzL7%2FDbAKlXzKKEMUiXFYEQ0FIbfOFjmKapMiI5KUSfvCHJY7twDbS6k7OmR9mL2Clk9nHF8uosAxLLcg%3D%3D" for 172.16.240.78 at 2016-07-05 18:04:46 +0800
+Cannot render console from 172.16.240.78! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+  Parameters: {"msg_signature"=>"2e727a8ec1e431930723692b48eedf787eec79fa", "timestamp"=>"1467708559", "nonce"=>"578607016", "echostr"=>"FpyYyfzL7/DbAKlXzKKEMUiXFYEQ0FIbfOFjmKapMiI5KUSfvCHJY7twDbS6k7OmR9mL2Clk9nHF8uosAxLLcg=="}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=be3730711709822919bb6ca1ce8964326e3b9331&timestamp=1467713104&nonce=1054571265&echostr=3LPxqoFbrrVidYSqVj9QvTRstOrsUhAtsWiV%2FtLia8wbnCb8igdyMMySBFnW7N1YGldaYSlTWAKTB%2FPsoCFchQ%3D%3D" for 101.226.103.70 at 2016-07-05 18:05:02 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"be3730711709822919bb6ca1ce8964326e3b9331", "timestamp"=>"1467713104", "nonce"=>"1054571265", "echostr"=>"3LPxqoFbrrVidYSqVj9QvTRstOrsUhAtsWiV/tLia8wbnCb8igdyMMySBFnW7N1YGldaYSlTWAKTB/PsoCFchQ=="}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cache/global/img/gs.gif" for 93.174.93.136 at 2016-07-05 18:11:52 +0800
+Cannot render console from 93.174.93.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/cache/global/img/gs.gif"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/weixin/index?signature=74b3f8f22373aaa74f2aea2798ae383e320acf3d&echostr=8847170965864445783&timestamp=1467803478&nonce=1097746812" for 140.207.54.73 at 2016-07-06 19:11:19 +0800
+Cannot render console from 140.207.54.73! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"signature"=>"74b3f8f22373aaa74f2aea2798ae383e320acf3d", "echostr"=>"8847170965864445783", "timestamp"=>"1467803478", "nonce"=>"1097746812"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:9:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.9ms)
+
+
+Started GET "/weixin/index" for 192.168.6.1 at 2016-07-06 19:11:29 +0800
+Cannot render console from 192.168.6.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:7:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.6ms)
+
+
+Started GET "/weixin/index?signature=c035d674631f2faef21188a16349441b9d4e13a6&echostr=1258732832159563775&timestamp=1467803588&nonce=672727579" for 101.226.103.61 at 2016-07-06 19:13:09 +0800
+Cannot render console from 101.226.103.61! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"signature"=>"c035d674631f2faef21188a16349441b9d4e13a6", "echostr"=>"1258732832159563775", "timestamp"=>"1467803588", "nonce"=>"672727579"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:27 签名有效性 0 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:57 输出  
+  Rendered weixin/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 398ms (Views: 370.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?signature=41f796b949adc8c875b97171185031e886d7f043&echostr=5442040882523926427&timestamp=1467804697&nonce=1291529470" for 58.247.206.145 at 2016-07-06 19:31:37 +0800
+Cannot render console from 58.247.206.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"signature"=>"41f796b949adc8c875b97171185031e886d7f043", "echostr"=>"5442040882523926427", "timestamp"=>"1467804697", "nonce"=>"1291529470"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:9:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.6ms)
+
+
+Started GET "/weixin/mp" for 101.226.66.175 at 2016-07-06 19:32:33 +0800
+Cannot render console from 101.226.66.175! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:64:in `mp'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.9ms)
+
+
+Started GET "/weixin/mp" for 101.226.89.122 at 2016-07-06 19:32:39 +0800
+Cannot render console from 101.226.89.122! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:64:in `mp'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/weixin/mp" for 192.168.6.1 at 2016-07-06 19:33:06 +0800
+Cannot render console from 192.168.6.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:64:in `mp'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.7ms)
+
+
+Started GET "/weixin/mp?signature=ce88849517efd43d11a341c6c542f50317ae798c&echostr=3675212270477962979&timestamp=1467804867&nonce=359855905" for 140.207.54.80 at 2016-07-06 19:34:27 +0800
+Cannot render console from 140.207.54.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"ce88849517efd43d11a341c6c542f50317ae798c", "echostr"=>"3675212270477962979", "timestamp"=>"1467804867", "nonce"=>"359855905"}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+ArgumentError (wrong number of arguments (4 for 5)):
+  app/controllers/weixin_aes.rb:82:in `verify_wx_message'
+  app/controllers/weixin_controller.rb:78:in `mp'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (80.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (97.7ms)
+
+
+Started GET "/weixin/mp?signature=cbf24cc2a57eefe205e3f2ec5d50996e095479ce&echostr=8093433573874330845&timestamp=1467804893&nonce=860416998" for 58.247.206.156 at 2016-07-06 19:34:53 +0800
+Cannot render console from 58.247.206.156! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"cbf24cc2a57eefe205e3f2ec5d50996e095479ce", "echostr"=>"8093433573874330845", "timestamp"=>"1467804893", "nonce"=>"860416998"}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:83 签名有效性 0 
+Completed 200 OK in 33ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=46e25c62a73bda88728d15fec37191cf143306ad&timestamp=1467804912&nonce=1867812622&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=d6354bf1fd2d5852d9a25f8453fe1767b68b39e5" for 101.226.233.145 at 2016-07-06 19:35:12 +0800
+Cannot render console from 101.226.233.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"46e25c62a73bda88728d15fec37191cf143306ad", "timestamp"=>"1467804912", "nonce"=>"1867812622", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"d6354bf1fd2d5852d9a25f8453fe1767b68b39e5"}
+Can't verify CSRF token authenticity
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:83 签名有效性 0 
+  Rendered weixin/mp.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 427ms (Views: 424.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=d400f19e6e4c6122d06f5c258162785334aa60e0&timestamp=1467804944&nonce=2013256670&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=3138571aa192ec28749ad17ba21f9958b8730df9" for 101.226.233.155 at 2016-07-06 19:35:44 +0800
+Cannot render console from 101.226.233.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"d400f19e6e4c6122d06f5c258162785334aa60e0", "timestamp"=>"1467804944", "nonce"=>"2013256670", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"3138571aa192ec28749ad17ba21f9958b8730df9"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:83 签名有效性 0 
+  Rendered weixin/mp.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 365ms (Views: 334.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=d5959c8bc72bed3a45e99d198f238c103c7cb067&timestamp=1467805088&nonce=681198779&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=248f865fb53cbf9a478252efb07bc8c51f12f130" for 101.226.233.145 at 2016-07-06 19:38:08 +0800
+Cannot render console from 101.226.233.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"d5959c8bc72bed3a45e99d198f238c103c7cb067", "timestamp"=>"1467805088", "nonce"=>"681198779", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"248f865fb53cbf9a478252efb07bc8c51f12f130"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:83 密文 FyaAd8GznQkDrr0xJlJ2V9scllHFNZpxOlMtvonTHwNfKyZuma0sFmjJADyLUG5GqjuIlfRRRj5UkkwAfJ+WuW38xi57FgyHLv/qaDgV1VYKNYHDTibflUqW2/yHfmUvnvKK9JxPlmS5QxEThaxnRG9X+l8rwKCowVYr83YJQW4UFlOihgCGKvYTUB6L98uSYdLgGq1VF/lueAtvGMsqFlTvtN14MMph1Z6XEIOWgsXOdYD2dHDUmr17nAMnG7nNVhsJYKsKPOVfdpl2HlZc8slooBLo79f7sm8DBUrECPzDVqR9hVb6v1JERcQ+sl9MTZGnJFtbRFGd68p0UGCp7TifgeppD6eBwDUVi2A89A2CLoMQhTNc+v6XSALtR3iWNDCNAv9k5RQCglGj/Lr0vFAXsa0w2DyolDKSJEeSLGo= 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:84 签名有效性 0 
+  Rendered weixin/mp.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 395ms (Views: 368.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=a9c4799bf273e87f123e25d8d76dac903d4cdb05&timestamp=1467805295&nonce=1574044525&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=739ad266cdc3048a61026bc2f53ce1b31c123f48" for 101.226.233.140 at 2016-07-06 19:41:36 +0800
+Cannot render console from 101.226.233.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"a9c4799bf273e87f123e25d8d76dac903d4cdb05", "timestamp"=>"1467805295", "nonce"=>"1574044525", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"739ad266cdc3048a61026bc2f53ce1b31c123f48"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:83 密文 QXGRCh0GmI4aN5mr6e6x/SMUoO/3x//0goyt+iACORpp4D8ORV2heme62GA8dkukq+X6u8d0NZZLQ9IkOJSn7fmTYzkpkqEbPIqVMnozf2aDa04oO/JMwfAsPitqm8bi6Q3DcnRwSRPN6cGJOaZmNPRc1tkjY1Op+opZLsGZtcdpm1LTrIBXgYjewlwhRQvAWcI7XTuhHPTyAbrdjXl6wxQCXNDFBHga2M1Gvx0v++oohgf37fuOdc/vNOXUPoGmTxUjtJuLAKEwn4HQ2+ych6coLTGzLjDXZ77v5O1RY9VJkALYPj4OxA2leaNRLaddMtC6vSOmqRyLIQBG6wkBOQeTExBI8MYEs7sprRHh7VtAbMPf1be7nkRVxF4bQxcsOFmj7YvF783v9eZbZkEuogbmDJ/KCArYJT7q0PcwWJM= 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:84 签名有效性 0 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:85 签名有效性 LBY3LxW0CZHNsFdnDgKszQs0d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:86 签名有效性 a9c4799bf273e87f123e25d8d76dac903d4cdb05 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:87 签名有效性 1467805295 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 签名有效性 1574044525 
+  Rendered weixin/mp.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 425ms (Views: 402.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=53da996994114e8415040f7a91961523cafc43ca&timestamp=1467805442&nonce=1288894683&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=b09436f73ca30718a60d980673773a456ae35bd9" for 101.226.233.150 at 2016-07-06 19:44:02 +0800
+Cannot render console from 101.226.233.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"53da996994114e8415040f7a91961523cafc43ca", "timestamp"=>"1467805442", "nonce"=>"1288894683", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"b09436f73ca30718a60d980673773a456ae35bd9"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:83 密文 DKwK/RskfeagnQHKVuek/W5lzkJlVXAg2TZvZsggk7q5u+wiiJJpa33mAfQcinwaSBRga+QdQAYoKKkAeWsj4Ow1cXkK+AAEgFN1Xqwp45aeUjgJqVLjfq37LgYX/MiAwM3oAIqatcE1ylc1xHEYoC1KzxlqIZvMTZBIrQWglQhRMUaUZ9b2g4CVqQ0U3h7LCLrgTxeNIAF1hyiXHNDLH3gVMqWOxi52bnx8xD0mSEu2pkESifR8+ux99bkb29DCYPohOywbLdzD6VDuLnji8HkYzU2FizD8ZO4S8bH7xfZa1VC6MAKSw8qbfxVoHzl3s0QHww+MncWfDVSm1MmickTdzyCYdPInKwv3qbQw6dljSMV0aPPFDAL69TYyr6X+J/n6OR4CHzbGRup9/wN7PfTS9fw4l/bzRhWmJjdZs1A= 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:84 签名有效性 b09436f73ca30718a60d980673773a456ae35bd9 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:85 签名有效性 LBY3LxW0CZHNsFdnDgKszQs0d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:86 签名有效性 53da996994114e8415040f7a91961523cafc43ca 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:87 签名有效性 1467805442 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 签名有效性 1288894683 
+  Rendered weixin/mp.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 403ms (Views: 376.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=1bf4f54be686fb8d2041e3ea9b6f0ed62acb011f&timestamp=1467805852&nonce=2106190714&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=78c5736ee71dc7a342cc240dac8bd01fb8a2f061" for 101.226.233.145 at 2016-07-06 19:50:52 +0800
+Cannot render console from 101.226.233.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"1bf4f54be686fb8d2041e3ea9b6f0ed62acb011f", "timestamp"=>"1467805852", "nonce"=>"2106190714", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"78c5736ee71dc7a342cc240dac8bd01fb8a2f061"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:84 密文 j6j9GMZ3K8XAusnp4XvjH2yHLapjXnqLOnsr5FjA3NQyGqJPFdeacCzpOrudfHISg0U0kvn3DS5nKZ0snPD7qTPqFPf638jxVT+XAdAeFN5pAmmGAv656/fRRy48qDjrjYUWI9m+Q4cIo5BTKAZUN7CGzcR7oG02Yf60lUvXD3QFQhlbUVDGgf+uH6ylCcaAzkV6l97pKmTfczvnzJsXjNIl//zYBcqyqrU4/djdN6gxYVKTrLFs723SYpimI1Ht+TJm58XBrKq1XvzQNmmTNxuwk3ORKUw0iqoNaaCqWhspYz/e73d2bLg/EBSQ2Nm68givwjwtj8+ExFZGpV8yh8RSCSJ2P9OCZQaywSTGm9figRrXqmeJ2rmf1GRKl8+uK6wgjrq5AYt7+0PAvMSf4V3CQGziZzMMfpZow1zvupw= 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:85 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:86 签名有效性 LBY3LxW0CZHNsFdnDgKszQs0d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:87 签名有效性 78c5736ee71dc7a342cc240dac8bd01fb8a2f061 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 签名有效性 1467805852 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 2106190714 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:108 回复签名时间 1467805852 
+  Rendered text template (0.1ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:117 输出 <xml><Encrypt><![CDATA[PVIScQ68XiCzaf9BQ95dUgXx4WL6MDzwJGDeK/+d5JJ8mQ3yNOIWVQoJ7N885X2zwxZVZ4UdcOA4i0P3SvoAU/x5+hoEVBJPtXDn+vexekY62aaqrkm5Ib/09V2MogMtnQF2pL+SnBeMvkxF25wi8IsiImqRDbZeduBl6rREAB5u7Ws+3ANtmbNJTtm4gYARKO51Gp51siwtUkC9hKowYHvMLggjHOpjeN0DzA7/y2T8tx4el6FS4cEXiY6ELVsYOPwGGCJGHyI0OLNZQoLb6tkdYKeOMaBYIkEThB6JKuU46vayJtg9XWSsGPIDeRQzwLDpjlmLOQCteVRqmZTkFr2hRtpBItKZQLCQg9hZrCi+woWFje14+emHOTrE/ncG]]></Encrypt><MsgSignature><![CDATA[3c112f3698260488a1c501060686ec0f77ee7bb6]]></MsgSignature><TimeStamp>1467805852</TimeStamp><Nonce><![CDATA[2106190714]]></Nonce></xml> 
+Completed 200 OK in 48ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=16fbaa64cee5519346670c19c777708a84dd7d6e&timestamp=1467805856&nonce=890481882&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=6af8e8bb3e0aa843f5bd38c94ebae29d07535e96" for 101.226.233.140 at 2016-07-06 19:50:56 +0800
+Cannot render console from 101.226.233.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"16fbaa64cee5519346670c19c777708a84dd7d6e", "timestamp"=>"1467805856", "nonce"=>"890481882", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"6af8e8bb3e0aa843f5bd38c94ebae29d07535e96"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:84 密文 OhQ3u5H6z9Jcpetm3588u2x5KL0rcdMD4s+ry1euR+MhZJ7WFRckapuCPwNA7lX+b2SW/ga1vv2DOKCJU20w6tTOMgxUypYtYbwwfalwBz3yHwIRBj7itvwnjl5NiKA70vX3X1TwQx3UYLgwxInDOtwb22dzMY4v9jHuriXorZCbK1kxyZY1alPUxqY5EqHwajxnpjgOn4IRvn4uXw06siGn6jf9wVn8E3LgzOihcp+5JfA7PfvJAc+mREv725pzC5yjIrrD75l7xOlPvQ3KLxKbYgkpEyo/E8NcRHfSoFR96lGa9fDqyhEg8VbCkbO/4rbJTzBhAssjS4syyDMZtFP0hebOgDWWw9FdabhTT/UGldzdISDqhEx/dJwu5kWJlYC9aFkiPfDj8jOrjNqiDZdKiCp5VifKiVfCsxd/7OvJ9UPDPvsEUQKpXLcd6QuRK7UdcbWx/Pe5WGGGikqCRw== 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:85 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:86 签名有效性 LBY3LxW0CZHNsFdnDgKszQs0d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:87 签名有效性 6af8e8bb3e0aa843f5bd38c94ebae29d07535e96 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 签名有效性 1467805856 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 890481882 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:108 回复签名时间 1467805856 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:117 输出 <xml><Encrypt><![CDATA[bqtx0qIr2Vw8YoJssvE/i9UWbPq39kHO9wu/8EizRdWWOB8tjZwJtk4CEfB4i7BTr1S9JNWWA5IAuccgxV7IjuOAaE5Mt7JFP2KKQ589VgoXMaKotKl5k9ydZUMOAx4w2WszNfktKyRcVYHfbnJ/T5YfYAwPftDCqsaqmuWlFy6f9W9c8omrLdDiGWjikGClVeKlh47g7UDEOUc0/LUpy0+aNKCt5pkmLZKK6DswTzu42/9vwwsHmJOzBfLl4IADUPOaNEzHWeVXNWnAiGQCaw/MCz+uXAQB78Xfjq6pIHHQ2r+h5irULbtMPphw4Wfox19s4Cv8RA22YyqervDOk20AFsXIdVkuVbx/Eye1xhG9sk+M/Hmhs5yvbHNa30D1]]></Encrypt><MsgSignature><![CDATA[39831952bc924259654eb7f7ac8659d0413d12ee]]></MsgSignature><TimeStamp>1467805856</TimeStamp><Nonce><![CDATA[890481882]]></Nonce></xml> 
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=ee44ba063f6216f97b6e08af21ccfc88ad5f7877&timestamp=1467805891&nonce=265936843&echostr=%2BuV1fgPOeETcFxWBQ25YSx2tex2yscFBdcdzrwcA7q6LNlPxpaSbUOuOZFHitAcMMEiDLpZPESssXYOwC4CN6A%3D%3D" for 101.226.103.69 at 2016-07-06 19:51:31 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"ee44ba063f6216f97b6e08af21ccfc88ad5f7877", "timestamp"=>"1467805891", "nonce"=>"265936843", "echostr"=>"+uV1fgPOeETcFxWBQ25YSx2tex2yscFBdcdzrwcA7q6LNlPxpaSbUOuOZFHitAcMMEiDLpZPESssXYOwC4CN6A=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:26 签名有效性 1 
+Completed 500 Internal Server Error in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `elements' for nil:NilClass):
+  app/controllers/weixin_controller.rb:30:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.5ms)
+
+
+Started GET "/weixin/mp?signature=12d9eaee2248571046f27c2d2d6a16c92cbed71a&echostr=2265423933131914239&timestamp=1467805993&nonce=1354785596" for 140.207.54.76 at 2016-07-06 19:53:13 +0800
+Cannot render console from 140.207.54.76! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"12d9eaee2248571046f27c2d2d6a16c92cbed71a", "echostr"=>"2265423933131914239", "timestamp"=>"1467805993", "nonce"=>"1354785596"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:67:in `mp'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (42.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.3ms)
+
+
+Started GET "/weixin/mp?signature=afa17abc0924a56cbe665b8573d8e94f3a3c4d0a&echostr=2946493707617956218&timestamp=1467806040&nonce=1588282073" for 101.226.103.60 at 2016-07-06 19:54:00 +0800
+Cannot render console from 101.226.103.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"afa17abc0924a56cbe665b8573d8e94f3a3c4d0a", "echostr"=>"2946493707617956218", "timestamp"=>"1467806040", "nonce"=>"1588282073"}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:85 密文 2946493707617956218 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:86 签名有效性 0 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:87 签名有效性 LBY3LxW0CZHNsFdnDgKszQs0d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 签名有效性  
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 1467806040 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:90 签名有效性 1588282073 
+Completed 200 OK in 24ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=506ef8eab74aa13fa60aec310d34e06438b4c50d&timestamp=1467806054&nonce=687838506&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=48872ae2d193e46934bdd72837c496cd9ad58a4d" for 101.226.233.140 at 2016-07-06 19:54:14 +0800
+Cannot render console from 101.226.233.140! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"506ef8eab74aa13fa60aec310d34e06438b4c50d", "timestamp"=>"1467806054", "nonce"=>"687838506", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"48872ae2d193e46934bdd72837c496cd9ad58a4d"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:85 密文 ZyEfLIsMaLmK6BltvPO5q2AiAo2RFR7PqBTitzUgOtHFwSaPqH6pcBJ8WXwFEvk/hKd9xnnGrwY4WnCqidQIn7Al5zQycNj3LUPB5QzfP+iSx2ccYAMcBz81A3pj6UbCB0EqgSjjhB+PGCXbP5M6mSHtEUmCsHPew9Ym2Of2ud2Oa3babxtTXw++J49WarPga7kdhsRyWpuIBBo876luB+5U8wSSio2GQAI3Y809s5byOqY44O6KTGP8l43AKKIdFK+R4BarwXQsN+Kw0kdiDvu2OQysAl9RCQSPloJIpGc4Hn3ATr2Y7DFG11sM2XAjdKCb96P4YycAOQityjIka5Cx25h6Rox7H/f79g/7d4VrLFcl6iIIoxOUbZl2xt2FPYYrFl9d7OMWkvt+uRtcm+Rms+zra7f0aDR5C0EN7EOTy7vyFbmk4KNSZKt5W4jNZ3cP2HCiwB9MQwTWp2cbOQ== 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:86 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:87 签名有效性 LBY3LxW0CZHNsFdnDgKszQs0d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 签名有效性 48872ae2d193e46934bdd72837c496cd9ad58a4d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 1467806054 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:90 签名有效性 687838506 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:109 回复签名时间 1467806054 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:118 输出 <xml><Encrypt><![CDATA[78SMO2SkiemwIOH3Ocvy0XYOzvO+upLkASJbxur4f1i4AD/HVqM32wmXt3Brgla+xrD14dbyUXGuPmS9pRxuPKhalm5Ka43G6uoIwts8UX6WX6LZEoFSfJx2RDWeweqeRjVTzDpEXrz63GKjfu/zG758n4i/Z6hBWN5ukn1Ptl3A75Nfdf7y3mvtWnciIHzrbt8eg2Euyosrs8berm5/YXFpTpQW4izmBgWI9Rb64b5uL6v69uMjSfsNdaiFp6zk7V2EjmXJizOizI+3vVkzQrt0lQTNM+XeABOFB3sFFMgycJyzZNOqlEcFbesfaRTSNFvys/Tnnz5yTK41rvIr36C/sJGVxYSnXvpsL44LoDOK7i49a4yghDpRgrvmnvfo]]></Encrypt><MsgSignature><![CDATA[5aa55c11a07d3e4e8f964d89250951e248288c52]]></MsgSignature><TimeStamp>1467806054</TimeStamp><Nonce><![CDATA[687838506]]></Nonce></xml> 
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=4073fad454a437fcd87b5d8c3c135aab382c3ecd&timestamp=1467806065&nonce=1285625007&echostr=EP2MlIVp8cDf4B3G9j4EUoSIR8SIA7p2emliNEurcjvZjMqUI%2FCUfAuZ25rF519A0PTnSjL9At9dnx2PBoz17Q%3D%3D" for 101.226.103.69 at 2016-07-06 19:54:25 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"4073fad454a437fcd87b5d8c3c135aab382c3ecd", "timestamp"=>"1467806065", "nonce"=>"1285625007", "echostr"=>"EP2MlIVp8cDf4B3G9j4EUoSIR8SIA7p2emliNEurcjvZjMqUI/CUfAuZ25rF519A0PTnSjL9At9dnx2PBoz17Q=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:26 签名有效性 1 
+Completed 500 Internal Server Error in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `elements' for nil:NilClass):
+  app/controllers/weixin_controller.rb:30:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.0ms)
+
+
+Started GET "/weixin/mp?signature=3f4e0062429a3c628b61d885ff07360d8da65774&echostr=2270833135203514878&timestamp=1467806142&nonce=443261936" for 101.226.233.157 at 2016-07-06 19:55:42 +0800
+Cannot render console from 101.226.233.157! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"3f4e0062429a3c628b61d885ff07360d8da65774", "echostr"=>"2270833135203514878", "timestamp"=>"1467806142", "nonce"=>"443261936"}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:84 密文 2270833135203514878 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:85 签名有效性 0 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:86 签名有效性 LBY3LxW0CZHNsFdnDgKszQs0d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:87 签名有效性  
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 签名有效性 1467806142 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 443261936 
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=ed0c270e5bed6ada13bd492408a536f55cb3bddd&timestamp=1467806145&nonce=1671197341&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=eb4013c12b6710fdaa8b6263df8c62ea04b3bcf6" for 101.226.233.144 at 2016-07-06 19:55:45 +0800
+Cannot render console from 101.226.233.144! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"ed0c270e5bed6ada13bd492408a536f55cb3bddd", "timestamp"=>"1467806145", "nonce"=>"1671197341", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"eb4013c12b6710fdaa8b6263df8c62ea04b3bcf6"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:84 密文 edHe3/3rVIifS9cSuNy4ycPgN7k1Sg18AJ9gMlKfILA19fk75+XJwKQ0eMgEHtwLwOagwYzt5QhDOc1A7g2EzL9BY9EjFWNIp8hHPVImdxOgle9jaAM16XJIQQuYmMa6+3lIAy3o/1ShlaYY3e5ZWnNqXoBvFTppyBmDhX6rIB38H0Sb3tn+JCDrAcqbCiVZDJPJe52Idsf0dAmnEigNDlDTpTpMRHBKnLq7e+FR37AZCXaTLumCF5thQ+YPjx50zk79x0Y85Ptq2r0kw5+c25nbE6k5NBBN4ylrYR7ciRwAMKC4gUoC9Uzu48hoWbEz7SxZ0E+aDyyztJzOOpIAblTZoKlaSOU2ByDOMoDqqS/4U8qN7Q2IWHgAW6ttk/dXefjsEZUFwClKe2O41x3SisVZNOGxhy+Mgb4vy4RDS6I= 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:85 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:86 签名有效性 LBY3LxW0CZHNsFdnDgKszQs0d 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:87 签名有效性 eb4013c12b6710fdaa8b6263df8c62ea04b3bcf6 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 签名有效性 1467806145 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 1671197341 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:108 回复签名时间 1467806145 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:117 输出 <xml><Encrypt><![CDATA[kCGSFs9qiNSEBHVD2EiTSTrqqoiYKGP4t1aW7RgsvVhRHLjK/CxPWmMtgIyHUWatnHj3gNgCMWIKOTY8Yq7qo8Sntr35Jfi8uKvX3Dou7hAt02K+xtCCo+upcU0rIOGS4qW3X0FYsqE3wWsHouSv2TUuBNinutg2EBQYcjSRMUcLneNVDcq7kuvSi8nACq+Pf0/A5hxEmxmWjrjAsv97RUmvudbZyoh5lXMumGE8V0Dopg+bF6sTXodvMry4ChzZ7EcsY+fXCgy8EBAPwIJ/c4N4JUdF6DKB/9g+ws+UveqA1OkK3Zqnk7sLqAC19VITyccyk+tjOiE8+vfKkNfb+YnQCmcBI685M0quu5AQglOWpSNiGYetxLeu1PlMV34V]]></Encrypt><MsgSignature><![CDATA[4568f58f78a700c9c7739247438b828ee8c3f764]]></MsgSignature><TimeStamp>1467806145</TimeStamp><Nonce><![CDATA[1671197341]]></Nonce></xml> 
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cache/global/img/gs.gif" for 80.82.78.38 at 2016-07-06 19:56:53 +0800
+Cannot render console from 80.82.78.38! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/cache/global/img/gs.gif"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.2ms)
+
+
+Started GET "/weixin/index?msg_signature=df10c033f538944e84de79eb892d2f0f18dcc190&timestamp=1467806233&nonce=1610693885&echostr=eqaiH5Yyb1DGUatd4smLFVfGJj5BB%2BXoQ%2Fx7XmVoJtjvU4VItPfSojX1A1x4jtCX%2BMLaJnt7SAYmujYW422%2FEg%3D%3D" for 101.226.103.70 at 2016-07-06 19:57:13 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"df10c033f538944e84de79eb892d2f0f18dcc190", "timestamp"=>"1467806233", "nonce"=>"1610693885", "echostr"=>"eqaiH5Yyb1DGUatd4smLFVfGJj5BB+XoQ/x7XmVoJtjvU4VItPfSojX1A1x4jtCX+MLaJnt7SAYmujYW422/Eg=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:23 签名有效性 eqaiH5Yyb1DGUatd4smLFVfGJj5BB+XoQ/x7XmVoJtjvU4VItPfSojX1A1x4jtCX+MLaJnt7SAYmujYW422/Eg== 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:28 签名有效性 1 
+Completed 500 Internal Server Error in 27ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `elements' for nil:NilClass):
+  app/controllers/weixin_controller.rb:32:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (66.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.4ms)
+
+
+Started GET "/weixin/index?msg_signature=46d6b191a81a180350906f8f4126e345b31fe50e&timestamp=1467806299&nonce=780442073&echostr=%2FCliZl%2BdpRcswp5uK9%2Fpr7AiO33eMAh7KKCBVuUQqpM3mKopGyL3uwKcJBK2591pBvbkJmcy%2BApgygDhjzFatw%3D%3D" for 101.226.103.69 at 2016-07-06 19:58:19 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"46d6b191a81a180350906f8f4126e345b31fe50e", "timestamp"=>"1467806299", "nonce"=>"780442073", "echostr"=>"/CliZl+dpRcswp5uK9/pr7AiO33eMAh7KKCBVuUQqpM3mKopGyL3uwKcJBK2591pBvbkJmcy+ApgygDhjzFatw=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:23 签名有效性 2758933803954074463 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:28 签名有效性 1 
+Completed 500 Internal Server Error in 25ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `elements' for nil:NilClass):
+  app/controllers/weixin_controller.rb:32:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (65.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.2ms)
+
+
+Started GET "/weixin/index?msg_signature=4404b9f12b2ce402ac64deaa77ffa2502fcbfb18&timestamp=1467806337&nonce=275444701&echostr=JFEjcttbi%2Bpq6VIRovsnueSv9eHkvyWc3WjKMm5qSrs%2BjLTBRrZt%2BxJdwZuXe9Wl%2BYTNM9SfWZIV0aaJJ7dWUQ%3D%3D" for 101.226.103.70 at 2016-07-06 19:58:57 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"4404b9f12b2ce402ac64deaa77ffa2502fcbfb18", "timestamp"=>"1467806337", "nonce"=>"275444701", "echostr"=>"JFEjcttbi+pq6VIRovsnueSv9eHkvyWc3WjKMm5qSrs+jLTBRrZt+xJdwZuXe9Wl+YTNM9SfWZIV0aaJJ7dWUQ=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:23 签名有效性 3703564040543272581 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:28 签名有效性 1 
+Completed 500 Internal Server Error in 36ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `elements' for nil:NilClass):
+  app/controllers/weixin_controller.rb:32:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (53.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.8ms)
+
+
+Started GET "/weixin/index?msg_signature=3f8fbc28658b341538997cbeab9c387d97d324e3&timestamp=1467806483&nonce=1551285736&echostr=SYYdXrwFi7HC%2FGkr7RPg78Ky2FcAsLmTZzTJZI71DGPorlx9Sx1MfOUZqd1JJn78i09iCT%2FcAfxV7De9mTTrcw%3D%3D" for 101.226.103.69 at 2016-07-06 20:01:23 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"3f8fbc28658b341538997cbeab9c387d97d324e3", "timestamp"=>"1467806483", "nonce"=>"1551285736", "echostr"=>"SYYdXrwFi7HC/Gkr7RPg78Ky2FcAsLmTZzTJZI71DGPorlx9Sx1MfOUZqd1JJn78i09iCT/cAfxV7De9mTTrcw=="}
+  Rendered text template (0.0ms)
+Completed 500 Internal Server Error in 28ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `unpack' for nil:NilClass):
+  app/controllers/weixin_aes.rb:38:in `decrypt'
+  app/controllers/weixin_controller.rb:23:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (77.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.3ms)
+
+
+Started GET "/weixin/index?msg_signature=ae26cb0073ff15552f78efa972c3982411884f39&timestamp=1467806624&nonce=785484153&echostr=C1pz1mxPxmxXrvRy%2BKflbBdFbWvjtb%2BE1%2F%2BcQ9GDgnF0xH4f0XKlZWYSIi7B7f0o%2Bqs4DSDo5vkYvhSdf3%2F9XA%3D%3D" for 101.226.103.70 at 2016-07-06 20:03:44 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"ae26cb0073ff15552f78efa972c3982411884f39", "timestamp"=>"1467806624", "nonce"=>"785484153", "echostr"=>"C1pz1mxPxmxXrvRy+KflbBdFbWvjtb+E1/+cQ9GDgnF0xH4f0XKlZWYSIi7B7f0o+qs4DSDo5vkYvhSdf3/9XA=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:23 签名有效性 2088263498474585067 
+Completed 500 Internal Server Error in 28ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+ArgumentError (comparison of String with nil failed):
+  app/controllers/weixin_aes.rb:83:in `sort'
+  app/controllers/weixin_aes.rb:83:in `verify_wx_message'
+  app/controllers/weixin_controller.rb:26:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (62.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.5ms)
+
+
+Started GET "/weixin/index?msg_signature=c245b9e6e98405652a5926b5068f0f0f84f15f20&timestamp=1467806775&nonce=1671914728&echostr=udMZOAJZcMVzVwTUCeQcEs6uyhi8AuQwjD13T8z8Bi4HlCPfMOKbSz7N%2FC6lAtt5tLfyckFf3uAYIAoy9l2uxg%3D%3D" for 101.226.103.69 at 2016-07-06 20:06:16 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"c245b9e6e98405652a5926b5068f0f0f84f15f20", "timestamp"=>"1467806775", "nonce"=>"1671914728", "echostr"=>"udMZOAJZcMVzVwTUCeQcEs6uyhi8AuQwjD13T8z8Bi4HlCPfMOKbSz7N/C6lAtt5tLfyckFf3uAYIAoy9l2uxg=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:23 签名有效性 6562180095358793015 
+Completed 200 OK in 24ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=9b1d4518df52b779a0937103added5e2092032d9&timestamp=1467806793&nonce=1883780105" for 101.226.103.73 at 2016-07-06 20:06:34 +0800
+Cannot render console from 101.226.103.73! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"9b1d4518df52b779a0937103added5e2092032d9", "timestamp"=>"1467806793", "nonce"=>"1883780105"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:48 回复签名时间 1467806794 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:57 输出 <xml><Encrypt><![CDATA[5kA2i9QZUN/woSI4tNPLE9fQbs6k9oOhHX9oZ071vk577HRE52B/Hkdm9pCtG/K43Ojpa1ihNwNS9Xx4s9hfM33lYUb0h0uJL46RkXkye/0hiQHHtm9q4cvwfT8lK8K5Z9O+ABiN8Q+FkFXDsXXiL5oeOyKpcsQQQnegV9FLP1bKXYSb/euFW2azbcjRdo81JomOXGm4CuE5RNBkpu88somBgUlykB2SdbBUPK1buLA6dAsGM6bfHQiljbVoBn2LYb6S1QKBKMGhRPdKAXKjAjZQ0YMNVA2dOsyaF2a1VJiqCdC3928INgnr9Cgkjt7FoZ92n7uIpV8Ku93BNdobLfFB7xVp75BWIL03qh7QYA24Rl8i/zzfzGWOOmb90rqS]]></Encrypt><MsgSignature><![CDATA[04440bd1d049f65a83d5d5cbc62f5de30cfafd68]]></MsgSignature><TimeStamp>1467806794</TimeStamp><Nonce><![CDATA[1883780105]]></Nonce></xml> 
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=4214b908300e3608f4147a24c2cbf7294ed5b688&timestamp=1467806797&nonce=1395300395" for 101.226.103.70 at 2016-07-06 20:06:37 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"4214b908300e3608f4147a24c2cbf7294ed5b688", "timestamp"=>"1467806797", "nonce"=>"1395300395"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:48 回复签名时间 1467806797 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:57 输出 <xml><Encrypt><![CDATA[zx4YWp6fU203rxpXRqVpiLUS6cdMJqCyr+iKaqN4ANlZHYaLKPxwNUZAspSmdz1GgFBRj2URR2kum8Ja/3CL4sgvT48uY2SbElcExlmxcfZS9OiCVpGrb2VXrMVMJgEn3+JOXMCxDJfMnG2m8bB1V5f/0ajeMa5kdTOI16jofsaU2ia6zmvMO+iJ7egq1LH1r7e+IYsXPFnk2D/arpUUt12nsSuGF/acSdy9RhnF99f9y/jsA5Isi8GhVwsUbC+F3qam3cmnIIPzVsq3UnRF6JP6lqbYyukcqvJl3NrBydxZL54RivmUw++9PBY1eTM093xQfj+b13S4WPl9mHiWzbeYLDiV6k/uS9BVstulhC1NlU0EpCzjMbyxh2OuhMu6]]></Encrypt><MsgSignature><![CDATA[80364f7a5628327c0e3ad1fb3dde310b02e71b64]]></MsgSignature><TimeStamp>1467806797</TimeStamp><Nonce><![CDATA[1395300395]]></Nonce></xml> 
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=5b54b7ecee6cfd20f8098f152328fe7d121208d7&timestamp=1467806804&nonce=1193822443" for 101.226.103.70 at 2016-07-06 20:06:44 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"5b54b7ecee6cfd20f8098f152328fe7d121208d7", "timestamp"=>"1467806804", "nonce"=>"1193822443"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:48 回复签名时间 1467806804 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:57 输出 <xml><Encrypt><![CDATA[fSxmPF1uV04MJdJr4fZVt8dxbtwZXerAf2LltCBi6hXW5q18143PI0AC+kbvkfD9hPaOzPvErDOwhYRYEvOSubwwiV0lUXWhNwyDyzC8CxLuihoE/vn+ihEzBmVfzxndbFgXtmbLtKDfoAg68AAPSn9rD6D/cLjybXgOL/A9K9/pfjoWHQ+XDRfJACSSPWBi/1tvhR9q1sHmK5ibVrGVVv1s5noFdacUpfxxX1OMA/3SasjxRq6g3T8fo30U+Q84Lv/jl0XqoDSY3N2mIJRE3L68CObatFU0KpFX14mduDZbXo+hCQLqU/XhQxk/YuEwifT0AISiSwcOFqSijWigYAdmbkAFhFgdcRD3ax0OfGp0G3Xqh34asUAnBEJH+Ww1]]></Encrypt><MsgSignature><![CDATA[535cf604396c224b6f9d039901f55b4780dd4a31]]></MsgSignature><TimeStamp>1467806804</TimeStamp><Nonce><![CDATA[1193822443]]></Nonce></xml> 
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/mp" for 192.168.6.1 at 2016-07-06 20:07:04 +0800
+Cannot render console from 192.168.6.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:68:in `mp'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.5ms)
+
+
+Started GET "/weixin/mp" for 192.168.6.1 at 2016-07-06 20:07:48 +0800
+Cannot render console from 192.168.6.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+Gem::LoadError (Specified 'mysql2' for database adapter, but the gem is not loaded. Add `gem 'mysql2'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  activerecord (4.2.6) lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  activerecord (4.2.6) lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  activerecord (4.2.6) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.6) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.6) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.6) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.6) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.6) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.6) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.6) lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+  activerecord (4.2.6) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.6) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.6) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.3ms)
+
+
+Started GET "/weixin/mp" for 192.168.6.1 at 2016-07-06 20:08:48 +0800
+Cannot render console from 192.168.6.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as HTML
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `encoding' for nil:NilClass):
+  app/controllers/weixin_controller.rb:68:in `mp'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.9ms)
+
+
+Started GET "/weixin/mp?signature=a66281154ace1869e8a47cba9d0e71b3ef5d1f02&echostr=6314810375908687615&timestamp=1467806972&nonce=734638343" for 101.226.103.60 at 2016-07-06 20:09:32 +0800
+Cannot render console from 101.226.103.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"a66281154ace1869e8a47cba9d0e71b3ef5d1f02", "echostr"=>"6314810375908687615", "timestamp"=>"1467806972", "nonce"=>"734638343"}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 密文 6314810375908687615 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 0 
+Completed 200 OK in 50ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=d855d818330beed0d2eecb266b64ab53e436321c&timestamp=1467806989&nonce=1914851611&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=83ca73e5cc930fd02c6772aeb1fbcc45e325155e" for 101.226.233.145 at 2016-07-06 20:09:49 +0800
+Cannot render console from 101.226.233.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"d855d818330beed0d2eecb266b64ab53e436321c", "timestamp"=>"1467806989", "nonce"=>"1914851611", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"83ca73e5cc930fd02c6772aeb1fbcc45e325155e"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 密文 vGYy29GBk9wwQjMR+u4Gd8opovzRvCJYcw4bI4ceshtLxhSGrcRm5/WOaV0Wb2GNRZ51mW2fmItjW0TcHD8SeSlVB7hhKFvIBRzrkGX47StXDWP+RReZYKXtPUZ//rHhcPDuV/sK8jn1ixXJ2UJjlYKyYZWaM6+9aDV5iGANSbvYoTX5KfdIcMk41/QyaKNTsIP3/OEQM/WMKd4Y2tk7Vm/nTIk5ATZOqEgZs6d8DHnMwVUwoUn5Dt3cnnHdmHsWmzuiES6A4f/uVwD+nRLE7RUoi2HOKDMDJ7lKvv4SHUcK7AmSyMePhFdF2XH+BzaBeNaAEYThWj1PlYIUjkCromVc9Gj6JfQ8eI0cU62WgxG77CphE2t1GvmVMp319uSVIZjyszYCEaV1scM9GEP34a5agzDqc6xx+h5ffDerFic= 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:108 回复签名时间 1467806989 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:117 输出 <xml><Encrypt><![CDATA[rIP2k4eCx9CE5790h+qb8+l6HIQ+VJUd3AqmS7sYtpsRtlztoUL6SyXBM0/xM9G3k6mNiTMdcniGhJ/BzhP+g8mSMY5ttMDS5VlpaUc63SaaHTJUET5tTXTWH/55L1pnAlSeSu4C+6wjAhs+7D3VekNlVfFZYKztmHwtmoweF2Uo/45HohjscyZ27S4YmleCflfqI7FhkWYE1zSFqQtARfkO9PQAbaPn24sFQqq2OdE87sdJe5a82HZNGXLT9dwX9Wyn1mfAqFuldTnOZBbzogM3/1xRwQM+2bWCaJVM+rlTv8Krm6SrOePRVfcuA8yiC3sEBdb6Aeuuaq685UE6dEdfBo8jSNoUBol5k1i/McqK97HRI5MTW5q/v99Ak1tw]]></Encrypt><MsgSignature><![CDATA[cd376ac3f1b7b960de667e23fc59015516c91f2d]]></MsgSignature><TimeStamp>1467806989</TimeStamp><Nonce><![CDATA[1914851611]]></Nonce></xml> 
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=612234fd632be639a1a9a20a14f2b5d60d2f95fa&timestamp=1467807104&nonce=238881412&echostr=JbQO%2FezCb2FDeFCn4qGQncH0RLshseEM%2FstqcB6YUV8pKI6P%2FpzV4Y6d68e%2B3%2Fmhh7lciykbU1k0WKwtevWf1A%3D%3D" for 101.226.103.70 at 2016-07-06 20:11:45 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"612234fd632be639a1a9a20a14f2b5d60d2f95fa", "timestamp"=>"1467807104", "nonce"=>"238881412", "echostr"=>"JbQO/ezCb2FDeFCn4qGQncH0RLshseEM/stqcB6YUV8pKI6P/pzV4Y6d68e+3/mhh7lciykbU1k0WKwtevWf1A=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:23 签名有效性 3211040689206850955 
+Completed 200 OK in 26ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=4a4da4cb100c4a4f760953701da0cfb910e174ce&timestamp=1467807116&nonce=1612682089" for 101.226.103.70 at 2016-07-06 20:11:56 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"4a4da4cb100c4a4f760953701da0cfb910e174ce", "timestamp"=>"1467807116", "nonce"=>"1612682089"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:48 回复签名时间 1467807116 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:57 输出 <xml><Encrypt><![CDATA[5yl4+u8OhthBBWCDVO0om/xezqGSmrdSPqVStLA/IXlTN9QpgdN/X6WVKGRO7cEFemMS+vzEsgpWwZETe7ED7oDP62tnW0BWIbEn+7bAzXK7GX+QBrN2+4NwIP6CCJB5rG0Xat1f8afVcRMZF+6T82ck7AJkFpMsrwLkffaz75oOnhn17b/1a10T6X6FvH/gldi4S6lY243WYFs/e4IvGI5TfpFv+9tFq9Gk0G/WRNn1AgfTYNNcXjrgZRO/40iY7l4VjBbrVArAKP4S8afSJbW8hv6KRw5EUJRhVaeoX1v9w6PRtUgpjqZ6qkkhaDi9EJ3rIYmYmJBz2eYhUh3NoAQa1P+BE5rDl3iabGxC/y/nE4CmmIYRHskrz2vNhmYf]]></Encrypt><MsgSignature><![CDATA[fd6589e238ddf35e92eea23bcadade319f26fa2d]]></MsgSignature><TimeStamp>1467807116</TimeStamp><Nonce><![CDATA[1612682089]]></Nonce></xml> 
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=d6cacf4e2acfd3e1936b919dc8e163bead86ab41&timestamp=1467851932&nonce=2034432352&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=32d4ed8f85afd7d878472811ecaed797d3ca0425" for 101.226.233.155 at 2016-07-07 08:38:53 +0800
+Cannot render console from 101.226.233.155! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"d6cacf4e2acfd3e1936b919dc8e163bead86ab41", "timestamp"=>"1467851932", "nonce"=>"2034432352", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"32d4ed8f85afd7d878472811ecaed797d3ca0425"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:88 密文 9B/E0q7zZBV/r2LyBH2Vrviw3X24plw91Nz85FZXvsYdRIuUacUmLOfOJxRC6pzz2TJuJ1RdkVeh17FW1Y/AVjSnSc+aYbCu/lrOSHIaoaS4wTWrFNUZAAn3QCHFECfK5j28PxhrhY+tjUPSmQoKBbGf/OL31Bs7qurkL+TiK/PxwSX7V3SV0Y1j0AESiZLrES5FFxjWhImoKkqSBmbihj8f2IhbwVew/6jFtiMvjTMEfpJud8bNDg0E8PayVzcNfRxQ63UR+mlzpKqKCJ1MEQ+69Jupm42FfoEnbHMnoZrYfzgFJ8q5kh7ctoZjyi6UaN4ryatB8L14Spk+nFSDS1X5NGpTePzLuSq51YoL+tuNn+8SOTSmwvOZgxZYm21B304JFrKk5MDLAX51ozJl08uPWUY0GJ/epYqIK7BG1DM= 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:89 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:108 回复签名时间 1467851934 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:117 输出 <xml><Encrypt><![CDATA[J0HutA/wxu36qt+/Pn/kcN+ziMXXxlc2VrJP1uRLy3hTabzkcmkFD83Dln4/jKBgsqTmgHzraOvQa0fOMXYNVKseSLdJ7wsXVmMo7Wq1vtvmww7VPi/NdcCAEEzJmOIqhBijzZ0g0y/nXeIrOx9iKn9AmyQo509IchBoDys1uB2X7APM0uLAVr0gketnEuJjD+8FX9oDfFcN5ja6R55kGcYZwPcR0sfpzJRxCag14CfWGP4cQYz1VKyuGcd0xQcGAhw2JkvH/cZwqH6bnHP2zp3npUnHkDLbDG3qe6z/GiCRVI+o9NTblodFfEl/Irs4vBtMwrOp/32z+hASHM8ZsmiRpeGFfKLHk9PjnOgEjjA+APeyTsN9B2v/MXLCPNrK]]></Encrypt><MsgSignature><![CDATA[3d49f3c17158299a74f12a30643c20b45f615886]]></MsgSignature><TimeStamp>1467851934</TimeStamp><Nonce><![CDATA[2034432352]]></Nonce></xml> 
+Completed 200 OK in 33ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=19f1de9ef9c4ce5a3a0bcb17debd0b176a5e7432&timestamp=1467851949&nonce=14465955" for 101.226.103.69 at 2016-07-07 08:39:10 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"19f1de9ef9c4ce5a3a0bcb17debd0b176a5e7432", "timestamp"=>"1467851949", "nonce"=>"14465955"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:48 回复签名时间 1467851950 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:57 输出 <xml><Encrypt><![CDATA[OeWPoixkyGMlBgHQ5EPtIPwxv6VFW1QaC8TwSHE6ATA1iNgf1rJUcy/kXkg33zhAW3rVtCMKFqlFlRB9A4fZ970fXsopOEc9OGIaV6g3J8JAb718KW4KBeSBtwY4HB2g/EzIXTZgSKBwwK2gCVr35PtmJCaXRUqdcTbgbm+Mus+aECXfTMySESwzgLu4Jdga72uK17V5pxe1ii0iNmD6qMO5cC6U9tiqJW67OHUZAiIOYnRwaD0I7S4wRRkbQoluBrpQR+5o1E1QR6WhGmyLVd3g+ETAYlKzWdPxsjvrjwZYluFNpYHzZM6aORBKgC/YeGX+yqcEwBzWDDtl47oR61wACZmdogkPk8DqkWiZ/LG45XE479Kv7w9WkyGE+Soi]]></Encrypt><MsgSignature><![CDATA[1c4b595597cfe1d6812d6c74cd3dd01fb72d0384]]></MsgSignature><TimeStamp>1467851950</TimeStamp><Nonce><![CDATA[14465955]]></Nonce></xml> 
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=c653fa538e83b161fa0a6e70ff1e6f91f324c294&timestamp=1467852018&nonce=830959997" for 101.226.103.70 at 2016-07-07 08:40:19 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"c653fa538e83b161fa0a6e70ff1e6f91f324c294", "timestamp"=>"1467852018", "nonce"=>"830959997"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:44 构造的消息xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467852020</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[你]]></Content></xml> 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:51 回复签名时间 1467852020 
+  Rendered text template (0.1ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:60 输出 <xml><Encrypt><![CDATA[Fy694BB6yuQk2llAzkn9cl+SnArbGlipZ/0PeM0nAABsqdtTAE3IXf8ZKhoz3INJ6iZyn2a4pXIfgmpeT1vNhlKJyGsp3kuJ6LGtfImpGGbAjsHGPJHNvcTmGPHAJTrnvvLCYYswAUlhRMab+Kgzj4jetrM2Zs/n7buZ0wBauVKL0psGIL/YbyopEqJ73f1AEblLCUJN2iKstPdCfqyeWbV27skwF91G9EoR+xSd1YN0qRk4lGF3Y057xERPnyeiNyRqz9AQkWwTWa+8oSs43tYUh2z3dozlUWqLoba/hrf1f2Z5f0HZKlkXom5i0l8QuljachtQHLON/e7NWg6TkvxLPvyw+Jz4iSmro82GgS9ioMhIE6d60+UizUz+gOcR]]></Encrypt><MsgSignature><![CDATA[8f8159b20c54ffa3ea99e13cbc95c6765d25968f]]></MsgSignature><TimeStamp>1467852020</TimeStamp><Nonce><![CDATA[830959997]]></Nonce></xml> 
+Completed 200 OK in 62ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index/index?msg_signature=90375b655cc11fedbbda451226708cb05c835c14&timestamp=1467853662&nonce=756373900" for 101.226.103.69 at 2016-07-07 09:07:42 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (34.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.1ms)
+
+
+Started POST "/index/index?msg_signature=90375b655cc11fedbbda451226708cb05c835c14&timestamp=1467853662&nonce=756373900" for 101.226.103.70 at 2016-07-07 09:07:42 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+
+
+Started POST "/index/index?msg_signature=90375b655cc11fedbbda451226708cb05c835c14&timestamp=1467853662&nonce=756373900" for 101.226.103.70 at 2016-07-07 09:07:42 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.2ms)
+
+
+Started POST "/weixin/mp?signature=a3b3d845417e20d8c832168e18a9c30f07db6eae&timestamp=1467853671&nonce=981948101&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=64bfc681c3d3626a4dd8daca0251d798945e9716" for 101.226.233.145 at 2016-07-07 09:07:51 +0800
+Cannot render console from 101.226.233.145! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"a3b3d845417e20d8c832168e18a9c30f07db6eae", "timestamp"=>"1467853671", "nonce"=>"981948101", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"64bfc681c3d3626a4dd8daca0251d798945e9716"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:94 密文 dy5cGwfAzmXQACPzH6YpaoQEnhQuTrxvkpSYdHupq+u0fm9T5jM5XEH0fZ2xOFmgyV2kAUhBPjfqvXNoXj3a6Z0Jo7RSJOODbdegrjBUyHX8prD0U5ZzsJaHiduLrBJcmcIhD3A7I4T/AekIq+oB6cdJT2Giyy8UpvpRpydxvul+ObJ0/mJSs3c8G9R43eSLgDlmQ5oxg+b5/e0jyNGhyyJ1CyuV+RJEAi27FkL6VEXoIpkLsfO5d7ONYroBVnrAZ5/7IfKMvI0uoqHERLvG78jmRrbKWGwZT2XvAgkU0Xelrg5Q0JCcsxhTpA1aCQj7BWV2qWOVB3X7YLiZFVxrfAvePcpY//xQ5X/6PMPXXW0BWJxC403BbOy9SBjJqKEwZ7opLu5xAuPdPlftqk+3RextvoudZn3R9FFL3yA0nig= 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:95 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:112 加密构造的xml oGtPkzwgDYVhk9NtI9nrnnCZ33RA/qA08tiyECCsVlqcXIuHlmmWHuVeOCueEAwMBSieWhp/AyW9DXnLhUzl1pj/Bc49QzD8WZjNHungrWL/xoYRGFGeNfwLcMWqxqia/JA8ATlxN3BB4w+Uec5lKk4SpyLs2GCfQwkNGnxr2528ThFC0XpDTFs9F7TanyOkSqJzfw9+hdnNLUdYSTiznkNXcTrIFkhnFP3LxsEIrG7iG7QIo4U50B+PsTJHm1fSB/Da36n7XkXSBQ5SKR6H+7ISbWU1C2dlP9+a69KNfgmUiOLc5xBprljvPTk2o/4hX/ou9avUUnsy0lDMOR404dMiq2O9+SGHTwmAptopU3kbGrD8uxNwMUdn4KR4QqeC
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:113 解密上面加密的xml <xml><ToUserName><![CDATA[oaCC7js5REt7WO8SRqH_KWBNRyPY]]></ToUserName><FromUserName><![CDATA[gh_e38fad1e68c1]]></FromUserName><CreateTime>1467853671</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[你]]></Content></xml>
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:117 回复签名时间 1467853671 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:126 输出 <xml><Encrypt><![CDATA[oGtPkzwgDYVhk9NtI9nrnnCZ33RA/qA08tiyECCsVlqcXIuHlmmWHuVeOCueEAwMBSieWhp/AyW9DXnLhUzl1pj/Bc49QzD8WZjNHungrWL/xoYRGFGeNfwLcMWqxqia/JA8ATlxN3BB4w+Uec5lKk4SpyLs2GCfQwkNGnxr2528ThFC0XpDTFs9F7TanyOkSqJzfw9+hdnNLUdYSTiznkNXcTrIFkhnFP3LxsEIrG7iG7QIo4U50B+PsTJHm1fSB/Da36n7XkXSBQ5SKR6H+7ISbWU1C2dlP9+a69KNfgmUiOLc5xBprljvPTk2o/4hX/ou9avUUnsy0lDMOR404dMiq2O9+SGHTwmAptopU3kbGrD8uxNwMUdn4KR4QqeC]]></Encrypt><MsgSignature><![CDATA[a5c6307189bb9b312ed19d5b1c50a0b3dd97011f]]></MsgSignature><TimeStamp>1467853671</TimeStamp><Nonce><![CDATA[981948101]]></Nonce></xml> 
+Completed 200 OK in 8ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/weixin/index?msg_signature=e9f02744ef15396b7beaa1454c83e67a31a5b654&timestamp=1467853687&nonce=1629761829&echostr=DEaCQPyhvDmxGZeHo1n1un4jDVxo0vq93loTZi73d8owkUjs%2BWhXkFKSJapIO3FQMuCgss5Qn0tb8Ep4yUhbOg%3D%3D" for 101.226.103.70 at 2016-07-07 09:08:07 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"e9f02744ef15396b7beaa1454c83e67a31a5b654", "timestamp"=>"1467853687", "nonce"=>"1629761829", "echostr"=>"DEaCQPyhvDmxGZeHo1n1un4jDVxo0vq93loTZi73d8owkUjs+WhXkFKSJapIO3FQMuCgss5Qn0tb8Ep4yUhbOg=="}
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:23 签名有效性 4200968665975204727 
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index/index?msg_signature=b7e7374de93d9d6ee8cebd3fa5d4cc2b6900c270&timestamp=1467853698&nonce=1114156664" for 101.226.103.69 at 2016-07-07 09:08:18 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.3ms)
+
+
+Started POST "/index/index?msg_signature=b7e7374de93d9d6ee8cebd3fa5d4cc2b6900c270&timestamp=1467853698&nonce=1114156664" for 101.226.103.70 at 2016-07-07 09:08:18 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.6ms)
+
+
+Started POST "/index/index?msg_signature=b7e7374de93d9d6ee8cebd3fa5d4cc2b6900c270&timestamp=1467853698&nonce=1114156664" for 101.226.103.70 at 2016-07-07 09:08:19 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (47.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.4ms)
+
+
+Started POST "/index/index?msg_signature=3b63938787276e8c4d9dabe61e860244be9b662d&timestamp=1467853708&nonce=1294408188" for 101.226.103.70 at 2016-07-07 09:08:29 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.6ms)
+
+
+Started POST "/index/index?msg_signature=3b63938787276e8c4d9dabe61e860244be9b662d&timestamp=1467853708&nonce=1294408188" for 101.226.103.69 at 2016-07-07 09:08:29 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.3ms)
+
+
+Started POST "/index/index?msg_signature=3b63938787276e8c4d9dabe61e860244be9b662d&timestamp=1467853708&nonce=1294408188" for 101.226.103.70 at 2016-07-07 09:08:29 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+
+
+Started POST "/index/index?msg_signature=4f57761bc699c134ccf186f80cfbbb2ec6585697&timestamp=1467853711&nonce=589594866" for 101.226.103.70 at 2016-07-07 09:08:31 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.5ms)
+
+
+Started POST "/index/index?msg_signature=4f57761bc699c134ccf186f80cfbbb2ec6585697&timestamp=1467853711&nonce=589594866" for 101.226.103.71 at 2016-07-07 09:08:31 +0800
+Cannot render console from 101.226.103.71! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (60.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.5ms)
+
+
+Started POST "/index/index?msg_signature=4f57761bc699c134ccf186f80cfbbb2ec6585697&timestamp=1467853711&nonce=589594866" for 101.226.103.70 at 2016-07-07 09:08:31 +0800
+Cannot render console from 101.226.103.70! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [POST] "/index/index"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.1ms)
+
+
+Started POST "/weixin/index?msg_signature=1d5b20a266a3b50d445c07d53ebe37cee5ceb2da&timestamp=1467853769&nonce=621859209" for 101.226.103.73 at 2016-07-07 09:09:29 +0800
+Cannot render console from 101.226.103.73! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"1d5b20a266a3b50d445c07d53ebe37cee5ceb2da", "timestamp"=>"1467853769", "nonce"=>"621859209"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:44 构造的消息xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467853769</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[1]]></Content></xml> 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:49 加密构造的xml HFe3TDTvHPyXhHY/vvqPj7MWzS5DqkShN9U/ryzSHd5Wk7lYcrkljNQHKXVKcKSLCY6wsYuEZf0LnJhkYRiTckmPmF8OpLiPO0nDvnZe/b8xEVxm6sxKpPH1cSW+2XS7bttQsPhiY+nJBNxkK+sTrLo1ZXkGYVXasCt7/MqAhSuuUi5kNNjifC67CnQAwDg/t5w/EBPy1r1L+UoXFsPTYyMTpvzEuSNpGChN4CmYIZtLa0tF6K1fnxnLVH6Cb+t+ZLdjiBUvlKRyL6gcPlry+fco7I2vTXLIhZQWMNAwgO2vj8ZcHWCs1//g8npHI9rhYZQVIZQECa8mh2LpyGtzRg==
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:50 解密上面加密的xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467853769</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[1]]></Content></xml>
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:54 回复签名时间 1467853769 
+  Rendered text template (0.1ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:63 输出 <xml><Encrypt><![CDATA[HFe3TDTvHPyXhHY/vvqPj7MWzS5DqkShN9U/ryzSHd5Wk7lYcrkljNQHKXVKcKSLCY6wsYuEZf0LnJhkYRiTckmPmF8OpLiPO0nDvnZe/b8xEVxm6sxKpPH1cSW+2XS7bttQsPhiY+nJBNxkK+sTrLo1ZXkGYVXasCt7/MqAhSuuUi5kNNjifC67CnQAwDg/t5w/EBPy1r1L+UoXFsPTYyMTpvzEuSNpGChN4CmYIZtLa0tF6K1fnxnLVH6Cb+t+ZLdjiBUvlKRyL6gcPlry+fco7I2vTXLIhZQWMNAwgO2vj8ZcHWCs1//g8npHI9rhYZQVIZQECa8mh2LpyGtzRg==]]></Encrypt><MsgSignature><![CDATA[b747e41639f60318a5bf979457a3b2d824cf050a]]></MsgSignature><TimeStamp>1467853769</TimeStamp><Nonce><![CDATA[621859209]]></Nonce></xml> 
+Completed 200 OK in 53ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=f9f33e615de9a2371d41f934324b02ce0d022d77&timestamp=1467853776&nonce=924865013" for 101.226.103.73 at 2016-07-07 09:09:36 +0800
+Cannot render console from 101.226.103.73! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"f9f33e615de9a2371d41f934324b02ce0d022d77", "timestamp"=>"1467853776", "nonce"=>"924865013"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:44 构造的消息xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467853776</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[你]]></Content></xml> 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:49 加密构造的xml z1F5d0mpn4jT9JHRC3dO7wtFNg/tbx40ABFHfP5M+GSZqNdD8DV8DNhv1zvBTrvmzae5OR5dHEYhujIMUdqcHhyD/vfog1XunUirno2cZQMK9kiV7VXGN4PWCDW1hBMKmwbX9YXdI4SXUEG+nY0Cd6gJhXlkfLPb78d7eAvDZE2apoSn+fWM9B0eU+kORCIRwSSpxg4Uxdo3d6ID3H7KeOLgxmOIiwgGA6wCsLBxzZaiPdRAtCg57Vb6KFBYxrgG2mVUDKSDw81MlNXd8vU70wsSuZenjxfwfa97RTVfnVnK0gJ5LaV1rmDYgm4X0osJfp0d8VvGbsFWA6g++MINk3nlx1BjokV3r4kVdoMF1m/kx8LH98RyHbTByAYuXXwy
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:50 解密上面加密的xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467853776</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[你]]></Content></xml>
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:54 回复签名时间 1467853776 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:63 输出 <xml><Encrypt><![CDATA[z1F5d0mpn4jT9JHRC3dO7wtFNg/tbx40ABFHfP5M+GSZqNdD8DV8DNhv1zvBTrvmzae5OR5dHEYhujIMUdqcHhyD/vfog1XunUirno2cZQMK9kiV7VXGN4PWCDW1hBMKmwbX9YXdI4SXUEG+nY0Cd6gJhXlkfLPb78d7eAvDZE2apoSn+fWM9B0eU+kORCIRwSSpxg4Uxdo3d6ID3H7KeOLgxmOIiwgGA6wCsLBxzZaiPdRAtCg57Vb6KFBYxrgG2mVUDKSDw81MlNXd8vU70wsSuZenjxfwfa97RTVfnVnK0gJ5LaV1rmDYgm4X0osJfp0d8VvGbsFWA6g++MINk3nlx1BjokV3r4kVdoMF1m/kx8LH98RyHbTByAYuXXwy]]></Encrypt><MsgSignature><![CDATA[8d8637a66172a421bcb46eacd063ff6b8249a323]]></MsgSignature><TimeStamp>1467853776</TimeStamp><Nonce><![CDATA[924865013]]></Nonce></xml> 
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=8ffad660ed2337f52be26994b66a5b0ee3bc8220&timestamp=1467853819&nonce=965110075" for 101.226.103.73 at 2016-07-07 09:10:19 +0800
+Cannot render console from 101.226.103.73! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"8ffad660ed2337f52be26994b66a5b0ee3bc8220", "timestamp"=>"1467853819", "nonce"=>"965110075"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:44 构造的消息xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467853819</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[弹回:你]]></Content></xml> 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:49 加密构造的xml /yLkTNcdGzywRzZpfRQ0RKqWbeFNVSuAjClwaEKd/ACBokJch70Egt9mLBuCAeslSP6Hz16lM/tI39oWpQfUqdhWIry3Xc0ZsFrqDFL4ckVp0USj6roP45vqva6aPq3a/upv0kyBB5o4bx49FM6ZB09Dfp6c3YetjMSj6OS0AudzGBzZ1w5gmJCBJ7GxY9/MW52JMsHIFbHptSxiaE482SaXPmgdBeCx5BnS3ffyOpoQTT1It0agw8Tp9FwDSCeJIE1GLqnmOyCT4ut1u7qoBRTOxMiASts5lW9e5zmOYhJj3hlNZ0XbEu1jQZj2OFRB04pVbvMtx7aw80E1xS05hSHM6MSFYO2Jr9cJ/gS/WMrEmIkMd2FS1ZXY4DggSaBg
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:50 解密上面加密的xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467853819</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[弹回:你]]></Content></xml>
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:54 回复签名时间 1467853819 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:63 输出 <xml><Encrypt><![CDATA[/yLkTNcdGzywRzZpfRQ0RKqWbeFNVSuAjClwaEKd/ACBokJch70Egt9mLBuCAeslSP6Hz16lM/tI39oWpQfUqdhWIry3Xc0ZsFrqDFL4ckVp0USj6roP45vqva6aPq3a/upv0kyBB5o4bx49FM6ZB09Dfp6c3YetjMSj6OS0AudzGBzZ1w5gmJCBJ7GxY9/MW52JMsHIFbHptSxiaE482SaXPmgdBeCx5BnS3ffyOpoQTT1It0agw8Tp9FwDSCeJIE1GLqnmOyCT4ut1u7qoBRTOxMiASts5lW9e5zmOYhJj3hlNZ0XbEu1jQZj2OFRB04pVbvMtx7aw80E1xS05hSHM6MSFYO2Jr9cJ/gS/WMrEmIkMd2FS1ZXY4DggSaBg]]></Encrypt><MsgSignature><![CDATA[3fd6810ed32a3c42739259240751558f0690982a]]></MsgSignature><TimeStamp>1467853819</TimeStamp><Nonce><![CDATA[965110075]]></Nonce></xml> 
+Completed 200 OK in 59ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/index?msg_signature=7b7e35f2ce71f5acee7499e906ba4386ed604398&timestamp=1467853823&nonce=1263932520" for 101.226.103.69 at 2016-07-07 09:10:23 +0800
+Cannot render console from 101.226.103.69! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#index as */*
+  Parameters: {"msg_signature"=>"7b7e35f2ce71f5acee7499e906ba4386ed604398", "timestamp"=>"1467853823", "nonce"=>"1263932520"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:29 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:44 构造的消息xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467853823</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[弹回:45]]></Content></xml> 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:49 加密构造的xml AHP34h8v/TdXFTGyUn8IGcIvlFcy4845LywXNjqsLHbyE25SD0LWf7nfEZ26Bfdj6XBn1OiIjYQxybDJCqY4WphO0k2zyoyNoa1BwhOzUpikHsg8stCfHOvpSdR/DmuH4w9gVHLlHcZkoigOajxhKufwetZKLVqXLh+1ao91FrpD+T2t27tDFaZQSKjHVerafZqv8gp6RY9Z33ElI5TxrpMzsBmLXDkrTVl7Uqs5OLSZisuEETa1RqcjqRoB+240j8bA7auG00ziE+VfGvffDPFGuXr5WEpMSdi61lxbDZAJjNE8fq/gCxaiUs0KdzwNginzqANSXDE5yWbk5/84IUb6YjytSNMM/n4upxVAb7BbEa+SL+LVTk+tUyWBOrsu
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:50 解密上面加密的xml <xml><ToUserName><![CDATA[xiaolong]]></ToUserName><FromUserName><![CDATA[wx4ec263a6cfe06062]]></FromUserName><CreateTime>1467853823</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[弹回:45]]></Content></xml>
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:54 回复签名时间 1467853823 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:63 输出 <xml><Encrypt><![CDATA[AHP34h8v/TdXFTGyUn8IGcIvlFcy4845LywXNjqsLHbyE25SD0LWf7nfEZ26Bfdj6XBn1OiIjYQxybDJCqY4WphO0k2zyoyNoa1BwhOzUpikHsg8stCfHOvpSdR/DmuH4w9gVHLlHcZkoigOajxhKufwetZKLVqXLh+1ao91FrpD+T2t27tDFaZQSKjHVerafZqv8gp6RY9Z33ElI5TxrpMzsBmLXDkrTVl7Uqs5OLSZisuEETa1RqcjqRoB+240j8bA7auG00ziE+VfGvffDPFGuXr5WEpMSdi61lxbDZAJjNE8fq/gCxaiUs0KdzwNginzqANSXDE5yWbk5/84IUb6YjytSNMM/n4upxVAb7BbEa+SL+LVTk+tUyWBOrsu]]></Encrypt><MsgSignature><![CDATA[6eaf69e66784f549af6631c2762fa28491e4774e]]></MsgSignature><TimeStamp>1467853823</TimeStamp><Nonce><![CDATA[1263932520]]></Nonce></xml> 
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/weixin/mp?signature=5cca149fbf12d8bad61bafda9c1ba6c12fef1e24&timestamp=1467853830&nonce=1948664264&openid=oaCC7js5REt7WO8SRqH_KWBNRyPY&encrypt_type=aes&msg_signature=ce4b63e09df47bc01f26095978667697d0e7afde" for 101.226.233.150 at 2016-07-07 09:10:31 +0800
+Cannot render console from 101.226.233.150! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WeixinController#mp as */*
+  Parameters: {"signature"=>"5cca149fbf12d8bad61bafda9c1ba6c12fef1e24", "timestamp"=>"1467853830", "nonce"=>"1948664264", "openid"=>"oaCC7js5REt7WO8SRqH_KWBNRyPY", "encrypt_type"=>"aes", "msg_signature"=>"ce4b63e09df47bc01f26095978667697d0e7afde"}
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:94 密文 KqV7BE6df3LwS8AYGltzq3cTS12mUfw2L4JRu8fP10rip9J3SNxNr/jcLnFJlxXnjFoXH8NPjvr4joBtOH6AszeYA5+VhSX0s/HtTe+XSwWpEycGruD09RHj3exNMHlyAU9Rt38f07lKg/Per0SYPljiH6ewkFTitnUMYxk67MZ0WqsA4/iCEqxwwA7hE6bS06Yw+oDJKvWVIc4zLaCNQnfT9ddnQOhtPUJZpXijKMe8Q5q9pMlMUJ7HGSngRGjskHXlh1VHpwGWw0NSSJtrRikb6DWsYQvZ3kUSj1eRuR07Wo3BrWXF/Q6EjgaVFl+SBkg/eBwhSMCV7zA6ahCt3K/1Q+UD4IKYY7t6YMJsqV4YtbDkaHHvoXwl4unDvslq/5l0NS5bWSDpMmWj8zjC5W6c8qVAznqIr2JLTegoCZnTiQptvHcuu/BDSaY+2FBQqCWCTmgsUpvBv7cpOfC6lg== 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:95 签名有效性 1 
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:112 加密构造的xml +Ew8iMRt5v2+uBbmXojAmT0FHqpTdvKeiWWoEK0lOsy0zkEgFZdF6FHx2ZbONvFGkMt8VbgX+FYitbhO4y6tbiLZG72xPY52rTyGpEN/IhdYe5dIZPY7eeCteX5yZ8ntMt3SzssX7J2Doo0jBikiHMFl0nhoQOure1HJoQak5QbwPdnki9xYgz11zCh4HU/+zh5SjzeFzhP68Ppz3+WK8FfHwE6yVgwodYXGfvEue8hzGYjcdzvbZqUsUKYWDtvwyhfMaivR/b5z4Exi4DPt3QPN5AJi5hyF5I3vS2CulqyMXOwJx7NsbAyRF0VLh513YEL0NKgCAzerj2XgxAZAtc0gxMC7Str+ZSu+oNUea0pqCA0wrZKxx6tzsCX/cLLCrQUFOf8N8GDafGFVunvZHFAArdUR+JO0w76pSiNBmLg=
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:113 解密上面加密的xml <xml><ToUserName><![CDATA[oaCC7js5REt7WO8SRqH_KWBNRyPY]]></ToUserName><FromUserName><![CDATA[gh_e38fad1e68c1]]></FromUserName><CreateTime>1467853831</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[弹回:在一起时]]></Content></xml>
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:117 回复签名时间 1467853831 
+  Rendered text template (0.0ms)
+/Users/apple/RubymineProjects/Weinxin_aes/app/controllers/weixin_controller.rb:126 输出 <xml><Encrypt><![CDATA[+Ew8iMRt5v2+uBbmXojAmT0FHqpTdvKeiWWoEK0lOsy0zkEgFZdF6FHx2ZbONvFGkMt8VbgX+FYitbhO4y6tbiLZG72xPY52rTyGpEN/IhdYe5dIZPY7eeCteX5yZ8ntMt3SzssX7J2Doo0jBikiHMFl0nhoQOure1HJoQak5QbwPdnki9xYgz11zCh4HU/+zh5SjzeFzhP68Ppz3+WK8FfHwE6yVgwodYXGfvEue8hzGYjcdzvbZqUsUKYWDtvwyhfMaivR/b5z4Exi4DPt3QPN5AJi5hyF5I3vS2CulqyMXOwJx7NsbAyRF0VLh513YEL0NKgCAzerj2XgxAZAtc0gxMC7Str+ZSu+oNUea0pqCA0wrZKxx6tzsCX/cLLCrQUFOf8N8GDafGFVunvZHFAArdUR+JO0w76pSiNBmLg=]]></Encrypt><MsgSignature><![CDATA[decb6b28b6a9d547e5d32a27ff1f1098bc002546]]></MsgSignature><TimeStamp>1467853831</TimeStamp><Nonce><![CDATA[1948664264]]></Nonce></xml> 
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms)
